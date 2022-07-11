@@ -1,0 +1,17 @@
+package fundamentos;
+
+public class Temperatura {
+	
+	public static void main(String[] args) {
+		// (F - 32) * 5/9 = C
+		final double fator = 32;
+		final double ajuste = 5/9.0;
+		
+		double faren = 200;
+		double celsius = (faren - fator) * ajuste;
+		
+		System.out.println(faren + " graus Farenheint equivalem a " + celsius + "graus celsius");
+		
+		
+	}
+}
